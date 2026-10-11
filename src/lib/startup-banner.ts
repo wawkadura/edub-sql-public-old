@@ -62,7 +62,7 @@ export function printStartupBanner(): void {
 
     // Absent in unbuilt contexts; drop the token rather than print "undefined".
     const version = getAppVersion();
-    const title = version ? `LibreDB Studio ${version}` : "LibreDB Studio";
+    const title = version ? `Edub SQL ${version}` : "Edub SQL";
 
     console.log(
       [

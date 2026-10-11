@@ -48,7 +48,7 @@ function verifyStorageEncryptionKeyAtBoot(): boolean {
     [
       "",
       "============================================================",
-      " LibreDB Studio cannot start: STORAGE_ENCRYPTION_KEY is too short",
+      " Edub SQL cannot start: STORAGE_ENCRYPTION_KEY is too short",
       ` Got ${key.length} characters; the minimum is ${JWT_SECRET_MIN_LENGTH}.`,
       " Every credential write would fail, so boot stops here.",
       " Fix it either way:",
@@ -89,7 +89,7 @@ export function verifyAuthEnvAtBoot(): boolean {
       [
         "",
         "============================================================",
-        " LibreDB Studio cannot start: JWT_SECRET is not set",
+        " Edub SQL cannot start: JWT_SECRET is not set",
         " AUTH_BOOTSTRAP is off, which also turns off secret generation,",
         " so nothing will produce one. Every login would fail with HTTP 503.",
         " Fix it either way:",
@@ -112,7 +112,7 @@ export function verifyAuthEnvAtBoot(): boolean {
     [
       "",
       "============================================================",
-      " LibreDB Studio cannot start: JWT_SECRET is too short",
+      " Edub SQL cannot start: JWT_SECRET is too short",
       ` Got ${secret.length} characters; the minimum is ${JWT_SECRET_MIN_LENGTH}.`,
       " Every login would fail with HTTP 503, so boot stops here.",
       " Fix it either way:",

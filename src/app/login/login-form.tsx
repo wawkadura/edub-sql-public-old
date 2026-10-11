@@ -226,7 +226,7 @@ export default function LoginForm({ authProvider, passkey }: LoginFormProps) {
               <LibreDBLogo className="h-9 w-9 text-brand" />
             </div>
             <span className="text-xl font-semibold text-white tracking-tight group-hover:text-brand transition-colors duration-200">
-              LibreDB Studio
+              Edub SQL
             </span>
           </a>
 
@@ -296,7 +296,7 @@ export default function LoginForm({ authProvider, passkey }: LoginFormProps) {
             href="https://libredb.org"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="LibreDB Studio website"
+            aria-label="Edub SQL website"
             className="flex flex-col items-center gap-4 lg:hidden group"
           >
             <div className="relative">
@@ -307,7 +307,7 @@ export default function LoginForm({ authProvider, passkey }: LoginFormProps) {
             </div>
             <div className="text-center space-y-1">
               <h2 className="text-2xl font-bold tracking-tight group-hover:text-brand transition-colors duration-200">
-                LibreDB Studio
+                Edub SQL
               </h2>
               <p className="text-sm text-muted-foreground">Open-source SQL IDE for cloud-native teams</p>
             </div>
@@ -321,7 +321,7 @@ export default function LoginForm({ authProvider, passkey }: LoginFormProps) {
                 <span className="lg:hidden">Sign in</span>
               </CardTitle>
               <CardDescription className="text-muted-foreground">
-                <span className="hidden lg:inline">Sign in to your LibreDB Studio account</span>
+                <span className="hidden lg:inline">Sign in to your Edub SQL account</span>
                 <span className="lg:hidden">Enter your credentials to continue</span>
               </CardDescription>
             </CardHeader>
@@ -490,7 +490,7 @@ export default function LoginForm({ authProvider, passkey }: LoginFormProps) {
 
             <CardFooter className="pt-0 pb-6 flex flex-col items-center gap-2">
               <p className="text-xs text-muted-foreground font-medium text-center max-w-[240px]">
-                Enterprise-grade security powered by LibreDB Studio Engine
+                Enterprise-grade security powered by Edub SQL Engine
               </p>
               <span className="text-[10px] text-muted-foreground/60 font-mono">
                 v{process.env.NEXT_PUBLIC_APP_VERSION}

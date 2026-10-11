@@ -37,10 +37,10 @@ describe("LoginPage (OIDC mode)", () => {
     expect(queryByText("User")).toBeNull();
   });
 
-  test("renders LibreDB Studio title", () => {
+  test("renders Edub SQL title", () => {
     // The title appears twice: desktop hero and mobile header.
     const { getAllByText } = render(<LoginForm authProvider="oidc" passkey={null} />);
-    expect(getAllByText("LibreDB Studio").length).toBeGreaterThan(0);
+    expect(getAllByText("Edub SQL").length).toBeGreaterThan(0);
   });
 
   test("shows error message when error param is present", () => {

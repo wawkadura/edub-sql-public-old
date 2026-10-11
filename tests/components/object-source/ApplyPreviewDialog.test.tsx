@@ -1187,7 +1187,7 @@ describe("ApplyPreviewDialog", () => {
       refusal({
         outcome: "interrupted",
         committed: "unknown",
-        sentence: "Query killed. Message: Terminated from LibreDB Studio",
+        sentence: "Query killed. Message: Terminated from Edub SQL",
         duration: 1_200,
       }),
     );

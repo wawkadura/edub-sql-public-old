@@ -208,7 +208,7 @@ const TRINO_APPLY_VERDICT: Readonly<Record<string, ObjectEditRefusalClass | "int
 });
 
 /** What `kill_query` records against the statement it terminates. */
-const KILL_MESSAGE = "Terminated from LibreDB Studio";
+const KILL_MESSAGE = "Terminated from Edub SQL";
 
 /**
  * The statements that change what the schema tree would show.

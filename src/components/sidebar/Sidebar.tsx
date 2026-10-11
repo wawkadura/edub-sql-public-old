@@ -276,7 +276,7 @@ export const Sidebar = React.memo(function Sidebar({
             <Zap strokeWidth={1.5} className="w-3 h-3 text-white fill-current" />
           </div>
           <span className="font-medium text-xs tracking-tight bg-gradient-to-r from-foreground to-muted-foreground bg-clip-text text-transparent">
-            LibreDB Studio
+            Edub SQL
           </span>
         </div>
         <div className="flex items-center gap-1">

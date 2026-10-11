@@ -44,8 +44,8 @@ export function GitHubRepoLink({ className }: GitHubRepoLinkProps) {
       href={REPO_URL}
       target="_blank"
       rel="noopener noreferrer"
-      aria-label="LibreDB Studio on GitHub"
-      title="LibreDB Studio on GitHub"
+      aria-label="Edub SQL on GitHub"
+      title="Edub SQL on GitHub"
       onClick={() => dismissStarPrompt()}
       className={cn("inline-flex items-center justify-center transition-colors", className)}
     >

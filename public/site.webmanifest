@@ -1,6 +1,6 @@
 {
-  "name": "LibreDB Studio",
-  "short_name": "LibreDB",
+  "name": "Edub SQL",
+  "short_name": "Edub SQL",
   "start_url": ".",
   "display": "standalone",
   "icons": [

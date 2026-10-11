@@ -809,7 +809,7 @@ services:
 caproverOneClickApp:
     variables:
         - id: $$cap_version
-          label: LibreDB Studio Version
+          label: Edub SQL Version
           defaultValue: ${quote}${version}${quote}
           description: Image tag to deploy. Always pin a fixed version, never "latest". Example - ${example}. Browse all valid tags at https://github.com/libredb/libredb-studio/pkgs/container/libredb-studio
           validRegex: '/^([^\\s^\\/])+$/'

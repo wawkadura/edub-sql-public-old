@@ -376,7 +376,7 @@ describe("StudioDesktopHeader", () => {
   describe("github link", () => {
     test("renders a repository link beside the version badge", () => {
       const { container } = render(<StudioDesktopHeader {...defaultProps} />);
-      const link = container.querySelector('a[aria-label="LibreDB Studio on GitHub"]');
+      const link = container.querySelector('a[aria-label="Edub SQL on GitHub"]');
 
       expect(link).not.toBeNull();
       expect(link!.getAttribute("href")).toBe("https://github.com/libredb/libredb-studio");
@@ -391,7 +391,7 @@ describe("StudioDesktopHeader", () => {
     test("following the link marks the star prompt handled", () => {
       localStorage.removeItem("libredb_star_prompt_handled");
       const { container } = render(<StudioDesktopHeader {...defaultProps} />);
-      const link = container.querySelector('a[aria-label="LibreDB Studio on GitHub"]')!;
+      const link = container.querySelector('a[aria-label="Edub SQL on GitHub"]')!;
 
       fireEvent.click(link);
 

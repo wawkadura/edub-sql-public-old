@@ -790,7 +790,7 @@ export async function removeAccount(actor: string, email: string): Promise<void>
 }
 
 function otpauthUrl(email: string, secret: string): string {
-  return `otpauth://totp/LibreDB:${encodeURIComponent(email)}?secret=${secret}&issuer=LibreDB&algorithm=SHA1&digits=6&period=30`;
+  return `otpauth://totp/Edub%20SQL:${encodeURIComponent(email)}?secret=${secret}&issuer=Edub%20SQL&algorithm=SHA1&digits=6&period=30`;
 }
 
 export async function beginTotpEnrolment(

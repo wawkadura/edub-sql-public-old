@@ -213,7 +213,7 @@ export function AuthenticatorSettings({ onChange }: { onChange?: () => void } = 
     body = (
       <form className="space-y-5" onSubmit={(event) => void confirm(event)}>
         <ol className="space-y-5">
-          <Step index={1} title="Add LibreDB to your authenticator app">
+          <Step index={1} title="Add Edub SQL to your authenticator app">
             <p className="text-sm text-fg-muted">Type this key into the app, or open the setup link on this device.</p>
             <div className="flex max-w-md items-center gap-2">
               <code

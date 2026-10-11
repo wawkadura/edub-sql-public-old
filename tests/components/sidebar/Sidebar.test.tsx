@@ -203,11 +203,11 @@ describe("Sidebar", () => {
     }
   });
 
-  test("renders LibreDB Studio header", () => {
+  test("renders Edub SQL header", () => {
     const props = createDefaultProps();
     const { queryByText } = render(<Sidebar {...props} />);
 
-    expect(queryByText("LibreDB Studio")).not.toBeNull();
+    expect(queryByText("Edub SQL")).not.toBeNull();
   });
 
   test('shows "Add Connection" button (Plus icon)', () => {
@@ -503,7 +503,7 @@ describe("Sidebar", () => {
   test("footer links to the repository, in both standalone and embedded chrome", () => {
     const props = createDefaultProps();
     const { container } = render(<Sidebar {...props} />);
-    const link = container.querySelector('a[aria-label="LibreDB Studio on GitHub"]');
+    const link = container.querySelector('a[aria-label="Edub SQL on GitHub"]');
 
     expect(link).not.toBeNull();
     expect(link!.getAttribute("href")).toBe("https://github.com/libredb/libredb-studio");
